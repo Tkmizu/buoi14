@@ -70,7 +70,7 @@ namespace buoi14
                         case 4:
                         double salary = list.Max(s => s.TotalSalary());
                         var topTeacher2 = list.Where(s => s.TotalSalary() == salary);
-
+                        Console.WriteLine("giảng viên có lương cao nhất:");
                         foreach (Teacher tc2 in topTeacher2)
                         {
                             tc2.ShowInfo();
